@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sufficient Architecture Solution | Professional Design & Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Welcome/Preloader Animation -->
+    <div class="preloader" id="preloader">
+        <div class="logo-animation-wrapper">
+            <img src="img/WhatsApp Sticker 2026-08-18 at 2.27.21 PM.21 PM.p" alt="Sufficient Architecture Solution Logo" class="preloader-logo">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="main-header" class="header-hidden">
+        <div class="container nav-container">
+            <div class="nav-logo">
+            <img src="img/WhatsApp Sticker 2026-08-18 at 2.27.21 PM.21 PM.p" alt="" style="width: 100px">
+            </div>
+            <a href="#" class="logo-text">Sufficient Architecture Solutions</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Precision Engineering & <br>Elegant Design Solutions</h1>
+            <p>From structural glass to complete interior decoration, we deliver quality construction and real estate services.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                <a href="#contact" class="btn btn-outline">Get a Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Expanded List) -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Core Expertise</h2>
+            <p class="section-subtitle">Comprehensive architectural, construction, and decoration solutions tailored to your needs.</p>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <i class="fas fa-window-maximize"></i>
+                    <h3>Aluminum Works</h3>
+                    <p>Custom fabrication and installation of durable aluminum doors and windows, and versatile partitions.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <i class="fas fa-hand-rail"></i>
+                    <h3>Stainless Steel & Iron</h3>
+                    <p>Premium stainless steel balustrades and robust iron welding doors for security and style.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Glass & Glazing</h3>
+                    <p>Expert installation of glass partitions, frameless systems, and all structural glass works for construction.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Interior & Real Estate</h3>
+                    <p>Complete interior decoration services and professional real estate development and consultation.</p>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <i class="fas fa-blinds"></i>
+                    <h3>Window Treatments</h3>
+                    <p>A wide selection of functional and stylish window blinds to complement any space.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>General Construction</h3>
+                    <p>Full-service project management and execution for residential and commercial construction projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Showcase Snippet -->
+    <section id="projects" class="projects section-padding dark-bg">
+        <div class="container">
+            <h2 class="section-title light-text">Project Highlights</h2>
+            <div class="project-showcase">
+                <div class="project-item">
+                    <img src="img/apartment.hh.jpeg" alt="Modern Interior">
+                    <h4>Luxury Apartment Renovation</h4>
+                </div>
+                <div class="project-item">
+                    <img src="img/facade.jpeg" alt="Glass Facade Building">
+                    <h4>Commercial Glass Facade Installation</h4>
+                </div>
+                <div class="project-item">
+                    <img src="img/glasss build.jpeg" alt="Modern Home Exterior">
+                    <h4>Custom Aluminum & Glass Build</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Contact us today for a consultation or quote on aluminum works, interior decoration, or real estate development.</p>
+                <div class="contact-details">
+                    <p><i class="fas fa-phone"></i> +234 705 430 3905</p>
+                    <p><i class="fas fa-envelope"></i>sufficientarchitecturesolution@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>53,Ali Balogun street bariga lagos</p>
+                    <p class="reg-no">REG NO: 8552889</p>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/xjybpqrp" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select required>
+                    <option value="" disabled selected>Service Interested In</option>
+                    <option value="aluminum">Aluminum Works</option>
+                    <option value="glass">Glass/Partitions</option>
+                    <option value="interior">Interior Decoration</option>
+                    <option value="realestate">Real Estate</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea rows="5" placeholder="Project Details" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <span id="form-msg" class="form-msg"></span>
+            </form>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/2347054303905?text=Hello%20Sufficient%20Architecture%20Solution,%20I%20have%20an%20inquiry." 
+       class="whatsapp-float" 
+       target="_blank" 
+       title="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo-area">
+                <img src="img/WhatsApp Sticker 2026-08-18 at 2.27.21 PM.21 PM.p" alt="SAS Logo" class="footer-logo">
+            </div>
+            <p>&copy; 2026 Sufficient Architecture Solution. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.tiktok.com/@sufficient.architecture?_r=1&_t=ZS-990MsmGE0Sz"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/3efcb95a-78ef-43ce-98d8-e01efe85232c"><i class="fab fa-instagram"></i></a>
+                <a href="https://share.google/7jNOlkjMAsmlylfQY"><i class="fab fa-google"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
